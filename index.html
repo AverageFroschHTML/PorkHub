@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="searchbarStyles.css">
+
+</head>
+<body>
+    <input type="text" class="search-bar" placeholder="PorkHub" id="wage" value ="">
+
+
+
+    <img class="thumbnail" src="pemoie exploding.png">
+
+
+    <p class="keywords">
+        Try Out: "Blowjob" , "Anal" , "Fortnite"
+    </p>
+
+
+    <p id="text"></p>
+
+
+    
+    <script>
+
+        var wage = document.getElementById("wage");
+wage.addEventListener("keydown", function (e) {
+    if (e.keyCode === 13) {
+        validate(e);
+    }
+});
+
+function validate(e) {
+    var newHeading = document.getElementById("wage").value;
+        if (newHeading == "Blowjob") {
+            //document.getElementById("text").innerHTML = "newHeading asdwdw";
+            document.location.href="https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+        }
+        if (newHeading == "Anal") {
+            document.getElementById("text").innerHTML = "NAHHHH";
+        }
+        if (newHeading == "Fortnite") {
+            document.getElementById("text").innerHTML = "BRAHHH";
+        }}
+    
+    </script>
+
+
+
+
+
+</body>
+</html>
