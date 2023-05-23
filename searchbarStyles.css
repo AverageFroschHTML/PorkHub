@@ -1,9 +1,28 @@
+p {
+  font-family: Roboto, Arial;
+}
+
+.search-menu-container{
+    display:block;
+    margin-left:500px;
+    margin-bottom: 50px;
+    
+}
+
+.searchbar-row{
+    color: transparent;
+}
+
+.search-bar-container{
+    display: inline-block;
+}
 
 .search-bar{
+    /*display: inline-block;*/
     width: 400px;
     height: 50px;
-    margin-left: 700px;
-    margin-top: 400px;
+    /*margin-left: 700px;
+    margin-top: 400px;*/
     background-color: black;
     color: darkorange;
     border-top-right-radius: 75px;
@@ -22,17 +41,92 @@
     color:transparent;
 }
 
-.thumbnail {
+
+.searchbar-thumbnail-container {
+    display:inline-block;
     height: 52px;
     width: 52px;
+    vertical-align: top;
+}
+
+.searchbar-thumbnail {
     object-fit:cover;
     object-position: center;
-    margin-left: -460px;
-    margin-bottom: -18px;
+    /*margin-left: -460px;
+    margin-bottom: -18px;*/
+    height: 100%;
+    width: 100%;
+    margin-left: 4px;
 }
+
 
 .keywords {
     font-size: 30px;
     color:darkorange;
-    margin-left:600px
+    /*margin-left:600px*/
 }
+
+
+
+
+
+/* I have sinned: */
+
+.thumbnail {
+    width: 300px;
+    display: block;
+  }
+
+  .video-title {
+    margin-top: 0;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 12px;
+  }
+
+  .video-preview {
+
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 92px;
+    margin-top: -4px;
+    margin-bottom: 10px;
+  }
+
+  .video-info-grid {
+    display:grid;
+    grid-template-columns: 70px 1fr;
+  }
+
+
+  .video-info {
+   width: 200px;
+  }
+
+.channel-picture {
+    width: 70px;
+    vertical-align: top;
+  }
+
+  .profile-picture {
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid;
+  }
+
+  .thumbnail-row {
+    margin-bottom: 12px;
+  }
+
+  .video-author,
+  .video-stats {
+    font-size: 20px;
+    color: rgb(96,96 ,96 );
+    margin: 0px;
+  }
+
+  .video-author {
+    margin-bottom: 4px;
+  }

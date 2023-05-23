@@ -1,26 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
+    
+    <title>PorkHub</title>
+    
     <link rel="stylesheet" href="searchbarStyles.css">
 
+    <link rel="icon" href="https://cdn.prod.www.spiegel.de/images/74f23ecb-0001-0004-0000-000001279606_w1200_r1.33_fpx50_fpy41.34.jpg">
 </head>
+
+
+
+<!--Searchbar-->
 <body>
-    <input type="text" class="search-bar" placeholder="PorkHub" id="wage" value ="">
+    <div class="search-menu-container">
+        <div class="searchbar-row">
+            <div class="searchbar-thumbnail-container">
+                <img class="searchbar-thumbnail" src="pics/pemoie exploding.png">
+            </div>
+
+            <div class="search-bar-container">
+                <input type="text" class="search-bar" placeholder="PorkHub" id="wage" value ="">
+            </div>
+        </div>
+
+        <div>
+            <p class="keywords">
+                Try Out: "Blowjob" , "Anal" , "Fortnite"
+            </p>
+        </div>
+    </div>
+
+
+<!--Dream vid-->
+  <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="pics/dreamsus.jpeg">
+      </div>
+
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="https://yt3.googleusercontent.com/ytc/AGIKgqP6edJrc45FCrXxjguz4o0NmyJ5tJCdTEI5P73bBA=s176-c-k-c0x00ffffff-no-rj">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Dream caught in Man Hunt 5 vs 1 !!
+          </p>
+          <p class="video-author">
+            DreamYT-Real
+          </p>
+          <p class="video-stats">
+            3.4M views &#183; 6 months ago
+          </p>
+        </div>
+      </div>
+    </div>
 
 
 
-    <img class="thumbnail" src="pemoie exploding.png">
+<!--Fortnite sus vid-->    
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="pics/Frotnitesus.jpeg">
+        </div>
+
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="pics/stanniskillICON.jpeg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              ELTERN VERKAUFT &equals; OP SKIN
+            </p>
+            <p class="video-author">
+              stranazonolxSkill
+            </p>
+            <p class="video-stats">
+              6.9B views &#183; 2 days ago
+            </p>
+          </div>
+        </div>
+      </div>
 
 
-    <p class="keywords">
-        Try Out: "Blowjob" , "Anal" , "Fortnite"
-    </p>
 
+<!--Try not to bust-->
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="pics/bustin.webp">
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="data:image/jpeg;base64,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">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Try not to Bust EXTREME
+          </p>
+          <p class="video-author">
+            PewPewPie
+          </p>
+          <p class="video-stats">
+            0 views &#183; 69 years
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+<!--Ka man noch nix gefunden-->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="pics/Frotnitesus.jpeg">
+        </div>
+        <div class="video-info-grid" >
+          <div class="channel-picture">
+            <img class="profile-picture" src="stanniskillICON.jpeg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              ELTERN VERKAUFT &equals; OP SKIN
+            </p>
+            <p class="video-author">
+              stranazonolxSkill
+            </p>
+            <p class="video-stats">
+              6.9B views &#183; 2 days ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="pics/Frotnitesus.jpeg">
+        </div>
+        <div class="video-info-grid" >
+          <div class="channel-picture">
+            <img class="profile-picture" src="pics/stanniskillICON.jpeg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              ELTERN VERKAUFT &equals; OP SKIN
+            </p>
+            <p class="video-author">
+              stranazonolxSkill
+            </p>
+            <p class="video-stats">
+              6.9B views &#183; 2 days ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="pics/Frotnitesus.jpeg">
+        </div>
+        <div class="video-info-grid" >
+          <div class="channel-picture">
+            <img class="profile-picture" src="pics/stanniskillICON.jpeg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              ELTERN VERKAUFT &equals; OP SKIN
+            </p>
+            <p class="video-author">
+              stranazonolxSkill
+            </p>
+            <p class="video-stats">
+              6.9B views &#183; 2 days ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="pics/Frotnitesus.jpeg">
+        </div>
+        <div class="video-info-grid" >
+          <div class="channel-picture">
+            <img class="profile-picture" src="stanniskillICON.jpeg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              ELTERN VERKAUFT &equals; OP SKIN
+            </p>
+            <p class="video-author">
+              stranazonolxSkill
+            </p>
+            <p class="video-stats">
+              6.9B views &#183; 2 days ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="Frotnitesus.jpeg">
+        </div>
+        <div class="video-info-grid" >
+          <div class="channel-picture">
+            <img class="profile-picture" src="stanniskillICON.jpeg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              ELTERN VERKAUFT &equals; OP SKIN
+            </p>
+            <p class="video-author">
+              stranazonolxSkill
+            </p>
+            <p class="video-stats">
+              6.9B views &#183; 2 days ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      
 
     <p id="text"></p>
 
@@ -29,14 +237,15 @@
     <script>
 
         var wage = document.getElementById("wage");
-wage.addEventListener("keydown", function (e) {
+    wage.addEventListener("keydown", function (e) {
     if (e.keyCode === 13) {
         validate(e);
     }
 });
 
 function validate(e) {
-    var newHeading = document.getElementById("wage").value;
+        
+        var newHeading = document.getElementById("wage").value;
         if (newHeading == "Blowjob") {
             //document.getElementById("text").innerHTML = "newHeading asdwdw";
             document.location.href="https://www.youtube.com/watch?v=dQw4w9WgXcQ";
@@ -47,7 +256,7 @@ function validate(e) {
         if (newHeading == "Fortnite") {
             document.getElementById("text").innerHTML = "BRAHHH";
         }}
-    
+
     </script>
 
 
